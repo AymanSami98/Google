@@ -12,14 +12,14 @@ body {
 	flex-direction: column;
 	min-height: 100vh;
 }
-nav {
+.Header {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 	margin-right: 30px;
 	margin-top: 14px;
 }
-.menu{
+.Header .menu{
        width: 2%;
 }
 nav a {
@@ -31,20 +31,20 @@ nav a {
 	cursor: pointer;
 	padding: 5px 6.7px
 }
-nav a:hover {
+.Header a:hover {
 	text-decoration: underline;
 	opacity: .85;
 }
-nav img {
+.Header img {
 	width: 34px;
 	padding: 5px;
 	margin: auto 7px;
 	cursor: pointer;
 }
-nav img:hover {
+.Header img:hover {
 	opacity: .8;
 }
-nav button {
+.Header button {
 	border: 1px solid #4285f4;
 	font-weight: bold;
 	outline: none;
